@@ -8,7 +8,6 @@ function a(){
 }
 
 a().then((data)=>{
-	const ele = document.getElemetById("output");
-	ele.innerText="data";
-	div.appendChild(ele);
+	const ele = document.getElementById("output");
+	ele.innerText=data;
 })
